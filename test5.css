@@ -1,0 +1,265 @@
+/* start main*/
+*{
+padding:0;
+margin:0;
+font-family:arial;
+}
+body{
+	height:5000px;
+	
+	
+}
+.container{
+	width: 117;
+}
+.clearfix{
+	clear: both;
+}
+/* End main*/
+
+/* Start header*/
+ .main{
+ 	background-color: #607D8B;
+ 	color:#fff;
+ 	text-align:center;
+ 	padding:20px;
+ 	margin:0 ;
+ }
+/* End header*/
+/* Start navaction*/
+nav{
+	background-color: #9E9E9E;
+	margin:0px;
+	padding:20px;
+}
+nav ul{
+	
+
+	list-style:none;
+	text-align:center;
+
+}
+nav ul li{
+	
+	display:inline;
+	padding:5pxs;
+}
+nav ul li:after{
+	content:"|";
+}
+/* End navaction*/
+/* star main*/
+main{
+	background-color:#eee;
+	text-align:center;
+	margin:0 px;
+	padding:20px;
+	font-size:20;
+}
+main abbr{
+	text-decoration:none;
+}
+main span {
+	font-weight:bold;
+
+}
+.mai{
+	width: 637px;
+	margin: auto;
+	height: 300px;
+	overflow: hidden;
+}
+/*  ..*/
+.mai li{
+	width: 90px;
+	display: block;
+	position: relative;
+	float: left;
+	border-left: 1px solid #fff;
+	transition: all 0.10s;
+}
+.title{
+	position: absolute;
+	background: #ddd;
+	left: 0;
+	bottom: 0;
+	width: 300;
+}
+.title a{
+	color: black;
+	padding: 10px;
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+}
+.mai ul:hover li{
+	width: 50px;
+}
+.mai ul li:hover{
+	width: 300px;
+}
+/*End main/
+/*Start article*/
+.post{
+	
+	float:left;
+	width:70%;
+}
+.post article{
+	margin:20px ;
+	border: 2px solid;
+
+}
+ 
+.post article header{
+	background-color:#9E9E9e;
+	padding:10px;
+	
+}
+.post article section{
+	padding:10px;
+}
+.post article section span{
+	font-weight:bold;
+	font-size:20px;
+
+}
+progress{
+	font-size:20px;
+}
+details{
+	font-weight:bold;
+	margin:10px 0px;
+}
+.post article section .figure-img{
+	background:#fff;
+	padding:10px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width: 930px; 
+}
+.post article section .figure-img img{
+	background:#fff;
+	border: 1px solid #ccc;
+	width:290px ;
+	height:290px;
+	padding:3px;
+}
+.post article section .figure-img figcaption{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.post article dialog{
+
+    top: 0px;
+    position: fixed;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-style:italic;
+}
+.post article .video p{
+	font-weight:bold;
+	font-size:15px;
+	margin-bottom:10px;
+	margin-left: 20px;
+
+}
+.post article .video video source{
+	margin-top: 0px;
+}
+.post article .new-input form {
+	font-weight: bold;
+	font-family:serif;
+}
+.post article .new-input form input{
+	display:block;
+	margin-bottom: 10px;
+}
+.post article .new-input p{
+	font-weight:bold;
+	margin-bottom: 20px
+}
+
+/* End article*/
+/* Start sidebar*/
+
+
+aside{
+	float:right;
+	width:30%;  
+}
+aside section{
+	background: #eee;
+	margin: 20px 10px;
+	padding:10px;
+	border: 1px solid #eee;
+
+}
+aside section h3{
+	background:#999;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+aside .links ul{
+	
+	list-style:none;
+	
+}
+aside .links ul li{
+	line-height: 1.8
+	
+}
+
+aside .mater span{
+	font-size:30px;
+	font-weight:bold;
+	font-family:tahoma
+}
+
+meter{
+	margin:0 20px;
+	width:35%;
+	font-size:30px
+} 
+aside .top-member ul{
+	list-style:none;
+}
+aside .poll h3 span{
+	text-transform: uppercase;
+
+}
+aside .calc form input{
+	width:100px;
+	padding:3px
+}
+aside .calc form output{
+	color:blue;
+	font-weight:bold;
+}
+aside .audio {
+	background:black;
+
+
+}
+audio{
+	
+	background:black;
+}
+/*End sidebar*/
+/* Start footer*/
+footer{
+	background-color: #607D8B;
+ 	color:#fff;
+ 	text-align:center;
+ 	padding:20px;
+ 	margin:0 20px;
+}
+div .som {
+	font-weight: bold;
+	color: yellow;
+	background: white
+}
+/* End footer*/

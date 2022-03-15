@@ -1,0 +1,285 @@
+/* global */
+*{
+	margin:0;
+	padding: 0;
+}
+/* End global */
+ /* Start header */
+  body{
+	  	font-family: tahoma;
+	  	height: 2000px;
+  	  }
+   .main {
+		  	background: #989191;
+		  	text-align: center;
+		  	padding: 20px;
+		  	margin:20px 20px 0px 20px ;
+         }
+ /* End header */
+ /* Start navaction */
+ 	nav{
+	 		background: #eee;
+	 		margin:  0px 20px ;
+ 		}
+
+ 	nav ul {
+ 		    text-align: center;
+ 		   }
+
+ 	nav ul li {
+			 	display: inline-block;
+			 	padding: 20px;
+			  }
+ 
+ 	 	nav ul li a{
+			 	 		text-decoration: none;
+			 	 		color:#9C27B0
+ 	 				}
+
+ 	 	nav ul li a:hover{
+ 	 						color: red
+
+ 	 					 }
+
+ 	 	nav ul li a:active{
+ 	 						color: green
+ 	 					   }
+ /* End navigetion */
+ /* Start main */
+ 	main{
+	 		background: #9E9E9E;;
+	 		padding:10px;
+	 		margin: 0 20px;
+
+ 		}
+
+ 	main p{
+ 			text-align: center;
+ 		   }
+
+ 	main span {
+		 		text-transform: uppercase;
+		 		background: yellow
+ 			  }
+
+ 	main q{
+	 		text-transform: uppercase;
+	 		color: white;
+	 		background: black
+ 		  }
+ 
+ /* End main */
+ /* Start article */
+ .art{
+	 	width: 70%;
+	 	float: left;
+	 } 
+
+ 	.art article{
+			 		margin:20px;
+			 		background: #aaa;
+			 		border: 1px solid;
+ 				}
+
+ 	.art article header {
+ 							padding: 10px;
+ 						}
+
+ 	.art article section{
+					 		background: #999;
+					 		padding: 10px;
+ 						}
+
+ 	.art article header .ar{
+						 		direction: rtl;
+						 		background: black;
+						 		color: white;
+						 		margin-top: 10px;
+						 		padding: 10px;
+ 							}
+
+ 	.art article header summary {
+ 									font-weight: bold;
+ 								}
+
+ 	.art article header details{
+							 		direction: rtl;
+							 		margin: 20px;
+
+ 								}
+
+ 	.art article header dialog{
+							 		position: fixed;
+							 		top: 0px;
+							 		left: 0px;
+							 		text-transform: uppercase;
+							 		font-weight: bold;
+							 		padding: 10px;
+							 		background: black;
+							 		color: white;
+
+ 								}
+ 	
+ 	.art article header figure{
+					 		    background: #a29090;
+					            width: 850px; 	
+ 		
+ 							   }
+
+ 	.art article header figure img{
+ 									width: 255px;
+							 		height:  255px;
+							 		padding: 10px;
+							 		border: 2px solid #795548;
+							 		background: #333
+ 		 						   }
+
+ 	.art article header figure figcaption{
+							 		 		text-align: center;
+							 		 		font-weight: bold;
+										    padding: 10px;
+										    margin-top: 10px;
+										    font-style: italic;
+										    background: skyblue;
+ 		 								  }
+
+
+ 	
+ 	
+ /* End article */
+ /* Start sidabar */
+ aside {
+	 	width: 30%;
+	 	float: right;
+ 	   }
+
+ aside section {
+				 	background: #666;
+				 	margin: 20px;
+				 	border:3px dotted #4CAF50;
+				 	overflow: hidden;
+
+ 				}
+
+ aside section h3{
+				 	background: #9E9E9E;
+				 	margin:10px;
+				 	padding: 10px;
+ 				 }
+
+ aside section ul {
+				 	padding: 10px;
+				 	background: #adb4b9
+ 				  }
+
+ aside section ul li {
+					 	list-style: none;
+					 	padding: 5px
+
+ 					 }
+
+  .meter {
+		 	background:#999;
+		 	
+		 	margin: 20px;
+		 	padding: 10px;
+		 	overflow: hidden;
+		 	border: 2px solid #444;
+
+
+		 }
+ 
+ 	
+ 
+
+ .meter span{
+ 				font-weight: bold;
+ 
+ 			}
+
+ .meter p meter{
+
+ 					width: 90%;
+ 				 }
+
+ 	 aside  .data {
+
+ 	 	 	 		background: black;
+ 				  }
+
+ 	 aside .data input {
+ 	 						margin: 0px 0px 20px 10px;
+ 	 						padding: 5px;
+ 	 						
+ 	 					}
+
+ 	aside .calc{
+
+ 					background: #eee;
+					margin: 20px 10px;
+					padding:10px;
+					border: 1px solid #eee;
+ 				}
+	aside .calc form input{
+								width:80px;
+								padding:5px;
+								margin :0px 10px;
+						   }
+	aside .calc form output{
+								color:blue;
+								font-weight:bold;
+							}
+	aside .audio {
+					background:black;
+
+					margin: 20px 10px;
+					padding:10px;
+					border: 1px solid #eee;
+
+
+				}
+	aside .audio h3{
+						background:#999;
+						padding: 20px;
+						margin-bottom: 20px;
+
+					}
+	audio{
+		
+			background:black;
+		  }
+ 	 
+ 	 
+ .clear{
+ 		clear: both;
+ 		}
+
+  .dialog dialog{
+			 	    position: fixed;
+			 		top: 0px;
+			 		right:  0px;
+			 		left: 1240px;
+			 		text-transform: uppercase;
+			 		font-weight: bold;
+			 		font-style: italic;
+			 		padding: 10px;
+			 		background: black;
+			 		color: white;
+
+ 				}
+ /* End sidebar */
+ /* start canvas */
+ 
+ /* End canvas */
+ /* Start footer */
+ 	footer{
+		 		text-align: center;
+		 		background: black;
+		 		color: white;
+		 		padding: 10px;
+		 		margin: 0px 20px
+ 			}
+ 	footer span {
+ 					text-transform: uppercase;
+ 				}
+ /* End footer */
